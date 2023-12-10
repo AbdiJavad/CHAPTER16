@@ -16,7 +16,6 @@ import javafx.util.Duration;
 public class MediaDemo extends Application {
     private static final String MEDIA_URL =
             "http://liveexample.pearsoncmg.com/common/sample.mp4";
-
     @Override
     public void start(Stage primaryStage) {
         Media media = new Media(MEDIA_URL);
