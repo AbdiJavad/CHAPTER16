@@ -8,7 +8,7 @@ import javafx.scene.layout.Pane;
 import javafx.scene.text.Text;
 
 public class SliderDemo extends Application {
-    
+
     @Override
     public void start(Stage primaryStage) {
         Text text = new Text(20, 20, "JavaFX Programming");
