@@ -12,7 +12,7 @@ public class SliderDemo extends Application {
     @Override
     public void start(Stage primaryStage) {
         Text text = new Text(20, 20, "JavaFX Programming");
-        
+
         Slider slHorizontal = new Slider();
         slHorizontal.setShowTickLabels(true);
         slHorizontal.setShowTickMarks(true);
